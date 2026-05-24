@@ -24,32 +24,10 @@ export const csProjects = [
 
 export const artPieces = [
   {
-    title: "Piece Title Here",
-    medium: "Digital illustration",
-    year: "2024",
-    // Replace `svg` with an `image` field pointing to your actual artwork:
+    title: "PLACEHOLDER",
+    medium: "PLACEHOLDER",
+    year: "PLACEHOLDER",
     // image: '/art/piece-1.jpg',
-  },
-  {
-    title: "Piece Title Here",
-    medium: "Generative / digital",
-    year: "2024",
-  },
-  {
-    title: "Piece Title Here",
-    medium: "Digital painting",
-    year: "2024",
-  },
-  {
-    title: "Piece Title Here",
-    medium: "Mixed / concept art",
-    year: "2024",
-  },
-  {
-    title: "Your Piece Here",
-    medium: "Add your artwork",
-    year: "",
-    placeholder: true,
   },
 ];
 
