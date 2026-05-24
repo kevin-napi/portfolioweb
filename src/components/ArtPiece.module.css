@@ -1,0 +1,40 @@
+.piece {
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.canvas {
+  width: 260px;
+  height: 320px;
+  background: #131c28;
+  margin-bottom: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.canvas svg,
+.canvas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 16px;
+  color: var(--silver2);
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+
+.titleMuted { color: rgba(228, 233, 240, 0.3); }
+
+.medium {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(168, 196, 224, 0.4);
+}

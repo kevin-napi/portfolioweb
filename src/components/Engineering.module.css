@@ -1,0 +1,43 @@
+.section {
+  background: var(--silver);
+  border-top: 1px solid var(--line2);
+  padding: 100px 0;
+}
+
+.sHead {
+  padding: 0 64px;
+  margin-bottom: 56px;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.sNum {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--blue-mid);
+  opacity: 0.6;
+}
+
+.sTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(30px, 4vw, 52px);
+  letter-spacing: -0.5px;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.sRule {
+  flex: 1;
+  height: 1px;
+  background: var(--line2);
+  margin-left: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--line2);
+  border-left: 1px solid var(--line2);
+}

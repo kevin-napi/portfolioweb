@@ -1,0 +1,59 @@
+.splash {
+  position: fixed;
+  inset: 0;
+  background: var(--ink);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.splash.out {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1.03);
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-size: clamp(52px, 9vw, 96px);
+  color: var(--paper2);
+  letter-spacing: -1px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.accent {
+  font-style: italic;
+  color: var(--blue-accent);
+}
+
+.sub {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(242, 245, 249, 0.35);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+.track {
+  width: 200px;
+  height: 1px;
+  background: rgba(242, 245, 249, 0.1);
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: var(--blue-accent);
+  animation: load 2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes load {
+  from { width: 0; }
+  to   { width: 100%; }
+}

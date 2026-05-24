@@ -1,0 +1,83 @@
+.about {
+  border-top: 1px solid var(--line2);
+  padding: 100px 0;
+}
+
+.sHead {
+  padding: 0 64px;
+  margin-bottom: 56px;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.sNum {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--blue-mid);
+  opacity: 0.6;
+}
+
+.sTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(30px, 4vw, 52px);
+  letter-spacing: -0.5px;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.sRule {
+  flex: 1;
+  height: 1px;
+  background: var(--line2);
+  margin-left: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--line2);
+}
+
+.col {
+  padding: 60px 64px;
+}
+
+.colRight {
+  border-left: 1px solid var(--line2);
+}
+
+.colLabel {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--blue-mid);
+  margin-bottom: 24px;
+  opacity: 0.7;
+}
+
+.colText {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink-light);
+  max-width: 380px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border: 1px solid var(--line2);
+  color: var(--ink-light);
+  background: var(--silver);
+}

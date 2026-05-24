@@ -1,0 +1,17 @@
+.footer {
+  border-top: 1px solid var(--line2);
+  padding: 28px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--silver);
+}
+
+.footer span {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  opacity: 0.5;
+}

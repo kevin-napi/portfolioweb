@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --paper:     #f8f9fb;
+  --paper2:    #f2f5f9;
+  --silver:    #edf0f5;
+  --silver2:   #e4e9f0;
+  --blue:      #a8c4e0;
+  --blue-mid:  #7aaed4;
+  --blue-deep: #3a7fb5;
+  --blue-accent: #5b9fd4;
+  --ink:       #1c2635;
+  --ink2:      #2e3f56;
+  --ink-light: #6b7e96;
+  --line:      rgba(90, 130, 170, 0.12);
+  --line2:     rgba(90, 130, 170, 0.2);
+
+  --font-mono:  'DM Mono', monospace;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'Syne', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  cursor: none;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
