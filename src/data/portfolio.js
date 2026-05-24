@@ -4,7 +4,7 @@ export const csProjects = [
     title: "Code Battles",
     desc: "Multiplayer coding website where players compete to guess the output of the code. Coded with collaboration.",
     tags: ["Python", "FastAPI", "JavaScript"],
-    link: "https://github.com/JacobCSUF/CPSC-491-Code-Battles/",
+    link: "https://github.com/kevin-napi/Code-Battles",
   },
   {
     num: "002",
@@ -18,7 +18,7 @@ export const csProjects = [
     title: "Interactive AI Maze Visualizer",
     desc: "An A* pathfinding visualizer where players place weighted obstacles to challenge and redirect the AI's route in real time.",
     tags: ["Python", "Algorithms", "A*"],
-    link: "#",
+    link: "https://github.com/kevin-napi/ai-maze",
   },
 ];
 
