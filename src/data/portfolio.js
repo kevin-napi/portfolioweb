@@ -24,7 +24,7 @@ export const csProjects = [
     num: "004",
     title: "Anime Art Style Clustering",
     desc: "An end-to-end unsupervised ML pipeline to cluster anime illustrations by visual art style using transfer learning with a pretrained ResNet50 to extract 2048-dimensional feature embeddings",
-    tags: ["Python", "PyTorch", "scikit-learn, UMAP, Ploty"],
+    tags: ["Python", "PyTorch", "scikit-learn", "UMAP", "Ploty"],
     link: "https://github.com/kevin-napi/face_clustering",
   },
 ];
